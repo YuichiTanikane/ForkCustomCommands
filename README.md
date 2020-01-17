@@ -1,14 +1,14 @@
-# Fork Custom Commands
+# Fork Custom Command Examples
 Custom Commands Examples for https://git-fork.com/ 
 
-### Open URL by shell
+## Open URL by shell
 I use a shell file like bellow, because shell command cannot be run directly from Fork Custom Command.
 ```sh
 #!/bin/sh
 open $1
 ```
 
-### Example 1: Open CI Service
+#### Example 1: Open CI Service
 ##### Menu:
 ```
 Preferences -> Custom Commands -> Add Repository Custom Command
@@ -19,7 +19,7 @@ Script Path: open-by-sh.sh
 Parameters: https://travis-ci.com/YourName/$reponame
 ```
 
-### Example 2: Create Pull Request
+#### Example 2: Create Pull Request
 ##### Menu:
 ```
 Preferences -> Custom Commands -> Add Branch Custom Command
