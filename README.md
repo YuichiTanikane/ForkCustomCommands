@@ -2,7 +2,7 @@
 Custom Commands Examples for https://git-fork.com/ 
 
 ### Open URL by shell
-I use a shell file like bellow, because shell command cannot be run from the Fork Custom Command.
+I use a shell file like bellow, because shell command cannot be run directly from Fork Custom Command.
 ```sh
 #!/bin/sh
 open $1
